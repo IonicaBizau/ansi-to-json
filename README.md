@@ -2,6 +2,8 @@
 
 > Convert ANSI strings into JSON output.
 
+This work is heavily based on [`ansi_up`](https://github.com/drudru/ansi_up) by [**@drudru**](https://github.com/drudru). :cake:
+
 ## Installation
 
 ```sh
@@ -15,20 +17,20 @@ $ npm i --save ansi-to-json
 
 const ansiToJson = require("ansi-to-json");
 
-console.log(ansiToJson());
+console.log(ansiToJson("\x1b[30mblack\x1b[37mwhite"));
+console.log(ansiToJson("\u001b[1mfoo\u001b[22m"));
 ```
 
 ## Documentation
 
-### `ansiToJson(a, b)`
+### `ansiToJson(input)`
 Convert ANSI strings into JSON output.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String** `input`: The input string.
 
 #### Return
-- **Number** Return description.
+- **Array** The parsed input.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
