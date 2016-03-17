@@ -1,9 +1,6 @@
 {
   "name": "ansi-to-json",
   "description": "Convert ANSI strings into JSON output.",
-  "blah": {
-      "description": "This work is heavily based on [`ansi_up`](https://github.com/drudru/ansi_up) by [**@drudru**](https://github.com/drudru). :cake:"
-  },
   "keywords": [
     "ansi",
     "to",
@@ -17,7 +14,7 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "repository": {
@@ -29,6 +26,6 @@
   },
   "homepage": "https://github.com/IonicaBizau/ansi-to-json#readme",
   "dependencies": {
-    "couleurs": "^6.0.1"
+    "ansi_up": "IonicaBizauKitchen/ansi_up#5baf27f567e1bf392cbc997c1e511e52611996d6"
   }
 }
