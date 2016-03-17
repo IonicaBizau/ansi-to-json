@@ -2,8 +2,6 @@
 
 > Convert ANSI strings into JSON output.
 
-This work is heavily based on [`ansi_up`](https://github.com/drudru/ansi_up) by [**@drudru**](https://github.com/drudru). :cake:
-
 ## Installation
 
 ```sh
