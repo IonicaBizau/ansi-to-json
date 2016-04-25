@@ -1,18 +1,20 @@
+
 # ansi-to-json [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ansi-to-json.svg)](https://www.npmjs.com/package/ansi-to-json) [![Downloads](https://img.shields.io/npm/dt/ansi-to-json.svg)](https://www.npmjs.com/package/ansi-to-json) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Convert ANSI strings into JSON output.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save ansi-to-json
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const ansiToJson = require("ansi-to-json");
 console.log(JSON.stringify(ansiToJson("\u001b[38;5;196mHello\u001b[39m \u001b[48;5;226mWorld\u001b[49m"), null, 4));
 // [
@@ -63,7 +65,8 @@ console.log(JSON.stringify(ansiToJson("\x1b[30mblack\x1b[37mwhite"), null, 4));
 // ]
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `ansiToJson(input)`
 Convert ANSI strings into JSON output.
@@ -74,13 +77,18 @@ Convert ANSI strings into JSON output.
 #### Return
 - **Array** The parsed input.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`ansi-to-react`](https://npmjs.com/package/ansi-to-react) (by Kyle Kelley)—ANSI to React Elements
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 

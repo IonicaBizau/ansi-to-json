@@ -11,7 +11,7 @@
     "output"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
@@ -28,5 +28,16 @@
   "dependencies": {
     "anser": "^1.0.0"
   },
-  "blah": {}
+  "blah": {},
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
