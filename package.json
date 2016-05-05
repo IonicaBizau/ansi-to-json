@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "version": "1.0.2",
-  "main": "lib/index.js",
+  "main": "dist/ansi-to-json.js",
   "scripts": {
     "test": "node test"
   },
@@ -28,7 +28,9 @@
   "dependencies": {
     "anser": "^1.0.0"
   },
-  "blah": {},
+  "blah": {
+    "main": "lib/index.js"
+  },
   "files": [
     "bin/",
     "app/",
