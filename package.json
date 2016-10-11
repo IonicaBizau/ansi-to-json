@@ -11,7 +11,7 @@
     "output"
   ],
   "license": "MIT",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/ansi-to-json.js",
   "scripts": {
     "test": "node test"
@@ -35,6 +35,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
