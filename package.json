@@ -11,7 +11,7 @@
     "output"
   ],
   "license": "MIT",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "dist/ansi-to-json.js",
   "scripts": {
     "test": "node test"
@@ -41,6 +41,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
