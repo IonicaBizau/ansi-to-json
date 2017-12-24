@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save ansi-to-json
+# Using npm
+npm install --save ansi-to-json
+
+# Using yarn
+yarn add ansi-to-json
 ```
 
 
