@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/ansi-to-json#readme",
   "dependencies": {
-    "anser": "^1.0.0"
+    "anser": "^2.1.1"
   },
   "blah": {
     "main": "lib/index.js"
