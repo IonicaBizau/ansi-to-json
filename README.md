@@ -214,6 +214,7 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+ - `@heruka_urgyen/lit`
  - `@t1mmaas/remote-js-ui`
 
 
